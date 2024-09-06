@@ -47,7 +47,7 @@ i18n
         },
       },
       // Arabic
-      ar: {
+      js: {
         translation: {
           hello_world: "مرحباً بالعالم!",
         },

@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+
+  .lang-selector-style {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 50px !important;
+  }
+
+  .slide-background {
+    width: 70vw !important;
+
+    background-color: white;
+  }
+}
