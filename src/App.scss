@@ -14,7 +14,42 @@
 
   .slide-background {
     width: 70vw !important;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 
-    background-color: white;
+    .stretch-style {
+      height: fit-content !important;
+    }
+
+    .slide-item-style {
+      background-color: white;
+      border-radius: 15px;
+      padding: 15px;
+      width: 30% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        margin-bottom: 0 !important;
+        
+        div:nth-child(1) {
+          font-size: 20px;
+        }
+        div:nth-child(3) {
+          font-size: 15px;
+        }
+      }
+      img {
+        width: 90% !important;
+      }
+    }
   }
 }

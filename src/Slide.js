@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 const Slide = () => {
     const { t } = useTranslation();
-    
+
     const caseStudy = [
         {
           type: "1",
@@ -59,14 +59,14 @@ const Slide = () => {
             caseStudy.map((item, index) => {
                 return (
                     <>
-                        <div>
+                        <div className="slide-item-style">
                             <div>
                                 <div>{ t("case_" + (index + 1) + "_contents") }</div>
+                                <div className="stretch-style">sdfasdf</div>
                                 <div>{ t("case_" + (index + 1) + "_department") }</div>
+                                <div style={{ height: '1px', backgroundColor: '#ccc', marginTop: '10px' }}></div>
                             </div>
-                            <div>
-                                <img src={item.src} />
-                            </div>
+                            <img src={item.img.src} />
                         </div>
                     </>
                 )

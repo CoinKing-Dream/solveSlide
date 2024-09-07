@@ -11,7 +11,7 @@ function App() {
       <div>
         <div className='lang-selector-style'>
           <a href='/en'>EN</a>
-          <a href='/js'>JS</a>
+          <a href='/jp'>JP</a>
         </div>        
         <p>
           { t("hello_world") }
